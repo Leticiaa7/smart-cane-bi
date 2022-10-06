@@ -1,0 +1,113 @@
+#quem-somos{
+    color:#fff;
+    padding-bottom:2rem;
+}
+#explicacao-nós{
+    display:flex;
+    justify-content: center;
+    padding-bottom:5rem;
+}
+.first-li{
+    padding-block:3rem;
+    padding-inline:3rem;
+    color:#fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width:22.5rem;
+    
+}
+.two-li{
+    margin-left:5rem;
+    padding-block:3rem;
+    padding-inline:3rem;
+    color:#fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width:22.5rem;
+}
+.image-inovacao{
+    width:90px;
+    position: relative;
+    left:5.5rem;
+    top:1rem;
+}
+.image-final-header-contato{
+    width:100px;
+}
+.logo-final-header-contato{
+    display: flex;
+    justify-content: center;
+}
+#nós{
+    background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+    padding:2rem;
+    
+}
+#nós h2{
+    display: block;
+    color:#fff;
+    padding-bottom: 1.2rem;
+}
+.container-contatos{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding-block:1rem;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+  
+    margin-bottom:3rem;
+}
+.contato img{
+    margin:0 auto;
+    display:block;
+    max-width:100%;
+}
+
+.nome-contato{
+    color:#fff;
+    text-align: center;
+}
+.nome-insta{
+    color:#fff;
+    text-align: center;
+    font-weight: italic;
+    font-size:16px;
+}
+#bibliografia{
+    padding:2rem;
+}
+#bibliografia h2{
+    padding-bottom:2rem;
+}
+#bibliografia img{
+    padding:1rem;
+    cursor:pointer;
+}
+.bibliografia-images{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding-block:1rem;
+    background-color: #f9f9f9;
+}
+.bet{
+    border-radius: 30px;
+    background-color: #027B5B;
+    width:11.375rem;
+}
+.gulf{
+    border-radius: 30px;
+    background-color: #FEF4EA;
+    width:27.4375rem;
+}
+.auto{
+    border-radius: 30px;
+    background-color: #FEF4EA;
+    width:16.625rem;
+}
+.ecoa{
+    border-radius: 30px;
+    background-color: #FEF4EA;
+    width:16.125rem;
+}

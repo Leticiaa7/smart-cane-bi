@@ -1,0 +1,131 @@
+#sobre{
+    background-color: #F9F6F6;
+    padding-block:5rem;
+    text-align: center;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sobre h2{
+    padding-bottom:1.2rem;
+}
+#sobre p{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline:12rem;
+    
+}
+#sobre-header{
+    display:flex;
+    padding-block:1rem;
+    padding-inline:4rem;
+}
+#sobre-header img{
+    display:flex;
+    margin-top:3.2rem;
+    width:13.1875rem;
+    height:12.625rem;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+   
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#seguranca{
+    background-color: #EAE7E7;
+    display:flex;
+    padding-inline:0rem;
+    padding-block:2rem;
+    justify-content: center;
+}
+#seguranca h2{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+#seguranca p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#seguranca img{
+    padding-inline:2rem;
+    display: block;
+    margin: auto auto;
+    max-width: 75%;
+}
+.texto p{
+    width:42.5rem;
+    margin-right:5rem;
+    height: 11.875rem;
+    text-align:center;
+}
+#autonomia{
+    background-color: #F9F6F6;
+    display:flex;
+    justify-content: center;
+    padding-inline:0rem;
+    padding-block:2rem;
+}
+#autonomia p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:2rem;
+}
+#autonomia img{
+    padding-inline:2rem;
+    display: block;
+    max-width: 75%;
+    margin: auto auto;
+}
+#autonomia h2{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+#acessibilidade{
+    background-color: #EAE7E7;
+    display: flex;
+    justify-content: center;
+    padding-inline:0rem;
+    padding-block:2rem;
+}
+#acessibilidade p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#acessibilidade h2{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+#acessibilidade img{
+    padding-inline:2rem;
+    display: block;
+    margin: auto auto;
+    max-width: 75%;
+}
+#rectangle-fotos{
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #0C1067 0%, #FE68F8 91.15%);
+}
+#rectangle-fotos img{
+    margin-left: .5rem;
+}
